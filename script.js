@@ -219,7 +219,7 @@ function genere() {
                 prompt += ", "
         }}
     }
-    let n_type = randint(4)
+    let n_type = randint(3)
     if (n_type > 0 ){
         prompt += " de type "
         for(i=0;i<n_type;i++){
